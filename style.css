@@ -1,0 +1,57 @@
+@import url(reset.css);
+.section {
+  width: 1440px;
+  margin: 0px;
+}
+
+.section-nav {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: 15px auto;
+  padding-left: 120px;
+  padding-right: 160px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  width: 416px;
+  height: 710px;
+  background: #EFEEF6;
+}
+
+.section-div-svg {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: repeat(1, 15px);
+  grid-template-rows: repeat(16, 35px);
+  width: 15px;
+}
+
+.section-div-nav {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-rows: repeat(16, 35px);
+  grid-auto-flow: column;
+}
+
+.section-nav-a {
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: normal;
+  color: #5C6A79;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.section-nav-a-active {
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: normal;
+  color: #1C2A39;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+}/*# sourceMappingURL=style.css.map */
